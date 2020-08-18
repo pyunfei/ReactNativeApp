@@ -2,10 +2,8 @@ import React from 'react';
 import { Image } from 'react-native';
 import { createBottomTabNavigator } from 'react-navigation-tabs';
 import Home from './home';
-import DianZhang from './dianzhang';
 import My from './my';
-import GongLue from './gonglue';
-import Bijia from './bijia';
+import Phone from './phone';
 import scalePx from '@/utils/scalePx';
 import { themeMap } from '@/utils/scaleStyle';
 
@@ -56,24 +54,10 @@ const TabNavigator = createBottomTabNavigator(
         tabBarIcon: ({ tintColor, focused }) => IconTab(focused, icons[0]),
       },
     },
-    HomeBijia: {
-      screen: Bijia,
+    HomePhone: {
+      screen: Phone,
       navigationOptions: {
-        tabBarLabel: '比价',
-        tabBarIcon: ({ tintColor, focused }) => IconTab(focused, icons[6]),
-      },
-    },
-    HomeDianZhang: {
-      screen: DianZhang,
-      navigationOptions: {
-        tabBarLabel: '店长',
-        tabBarIcon: ({ tintColor, focused }) => IconTab(focused, icons[5]),
-      },
-    },
-    HomeGongLue: {
-      screen: GongLue,
-      navigationOptions: {
-        tabBarLabel: '攻略',
+        tabBarLabel: '通讯录',
         tabBarIcon: ({ tintColor, focused }) => IconTab(focused, icons[4]),
       },
     },

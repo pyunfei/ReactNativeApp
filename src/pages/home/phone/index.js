@@ -6,7 +6,7 @@ function Index() {
   return (
     <PageView headerHide >
       <ScrollView >
-        My
+        Phone
       </ScrollView>
     </PageView>
   );
