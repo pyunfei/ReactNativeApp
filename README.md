@@ -17,7 +17,6 @@
 - 设置 upstream 到 fork
 - 添加自己需要的其他库,本地开发
 - fork 更新后合并自己的开发
-- 需要修改模板请通知模板负责人
 
 ## Demo
 
@@ -36,7 +35,7 @@ pages/demo
 - reducer/persistReducer 需要持久化的 reducer
 - store
 - utils 常用工具函数库
-- pages/app.scss 全局主题值
+- pages/common.scss 全局主题值
 
 ## utils/scalePX 和 utils/scaleStyle
 
