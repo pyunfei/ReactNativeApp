@@ -13,29 +13,13 @@ const icons = [
     iconactive: require('./assets/home_active.png'),
   },
   {
-    icondefault: require('./assets/beeking.png'),
-    iconactive: require('./assets/beeking_active.png'),
-  },
-  {
-    icondefault: require('./assets/bee.png'),
-    iconactive: require('./assets/bee_active.png'),
-  },
-  {
     icondefault: require('./assets/my.png'),
     iconactive: require('./assets/my_active.png'),
   },
   {
-    icondefault: require('./assets/gonglue.png'),
-    iconactive: require('./assets/gonglue_active.png'),
-  },
-  {
-    icondefault: require('./assets/dianzhang.png'),
-    iconactive: require('./assets/dianzhang_active.png'),
-  },
-  {
-    icondefault: require('./assets/bijia.png'),
-    iconactive: require('./assets/bijia_active.png'),
-  },
+    icondefault: require('./assets/phone.png'),
+    iconactive: require('./assets/phone_active.png'),
+  }
 ];
 function IconTab(focused, iconObj) {
   return (
