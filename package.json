@@ -20,9 +20,22 @@
     "@react-native-community/eslint-config": "^2.0.0",
     "babel-jest": "^26.3.0",
     "eslint": "^7.7.0",
-    "jest": "^26.4.0",
     "metro-react-native-babel-preset": "^0.62.0",
-    "react-test-renderer": "16.13.1"
+    "react-test-renderer": "16.13.1",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "babel-plugin-react-css-modules": "^5.2.6",
+    "babel-plugin-react-native-classname-to-dynamic-style-extend": "https://github.com/xuqianjin/babel-plugin-react-native-classname-to-dynamic-style.git",
+    "babel-plugin-react-native-platform-specific-extensions": "^1.1.1",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "git-commit-cp": "^1.0.31",
+    "jest": "^24.8.0",
+    "node-sass": "^4.13.0",
+    "postcss": "^7.0.26",
+    "postcss-loader": "^3.0.0",
+    "postcss-pixel-to-viewport": "^1.0.2",
+    "react-native-postcss-transformer": "^1.2.4",
+    "react-native-sass-transformer": "^1.4.0",
+    "redux-devtools-extension": "^2.13.8"
   },
   "jest": {
     "preset": "react-native"

@@ -1,0 +1,34 @@
+@import '../../../app.scss';
+
+.tabbar {
+    width: 750px;
+    height: 98px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tabbaritem {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    color: #C5CAD4;
+}
+
+.itemactive {
+    // color: $Primary;
+    color: $BlackS;
+}
+
+.itemtext {
+    font-size: $FontSizeS;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+}

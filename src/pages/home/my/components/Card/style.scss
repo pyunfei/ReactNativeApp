@@ -1,0 +1,61 @@
+@import '../../../../../app.scss';
+
+.wrapper {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: $White;
+  border-radius: 12px;
+}
+
+.titleRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 22px 20px;
+  border-bottom: 1px solid $Divider;
+  box-sizing: border-box;
+}
+.title {
+  font-size: $FontSizeS;
+  color: $BlackS;
+}
+.right {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+.more {
+  font-size: $FontSizeS;
+  color: $BlackL;
+}
+
+.container {
+  padding: 30px 20px;
+}
+
+.row {
+  flex-direction: row;
+  position: relative;
+  display: flex;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.value {
+  font-size: $FontSizeXL;
+  color: $BlackS;
+}
+
+.label {
+  font-size: $FontSizeS;
+  color: $BlackS;
+  margin-top: 6px;
+}

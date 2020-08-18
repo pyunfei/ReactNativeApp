@@ -1,0 +1,97 @@
+@import '../../../../../app.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  background: $White;
+}
+.title_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px 10px 20px;
+}
+.title {
+  font-size: 40px;
+  color: $BlackS;
+  font-weight: bold;
+}
+.header_r {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+.sub_title {
+  font-size: 24px;
+  color: $BlackM;
+  margin-left: 10px;
+}
+.more_bg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.more_text {
+  font-size: 24px;
+  color: $Red;
+}
+.more_icon {
+  width: 9px;
+  height: 12px;
+  padding: 0;
+}
+.item_container {
+  display: flex;
+  flex-direction: row;
+}
+.item_bg {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: $White;
+  overflow: hidden;
+  border-right: 1px solid #e6e6e6;
+}
+.item_image {
+  width: 146px;
+  height: 146px;
+  margin-top: 15px;
+}
+.item_price {
+  font-size: 20px;
+  color: #c1c1c1;
+  text-decoration: line-through;
+  text-decoration-color: #c1c1c1;
+  margin-top: 20px;
+}
+.item_free_bg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 158px;
+  height: 32px;
+  border-radius: 17px;
+  background: #fe3d3e;
+  margin-bottom: 20px;
+  margin-top: 8px;
+}
+.item_free_text_tag {
+  font-size: 20px;
+  color: $White;
+  margin-top: 6px;
+}
+.item_free_text_zero {
+  font-size: 28px;
+  color: $White;
+}

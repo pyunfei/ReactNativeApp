@@ -1,0 +1,66 @@
+// 字体
+$FontSize: 20px;
+$FontSizeS: 24px;
+$FontSizeM: 28px;
+$FontSizeL: 32px;
+$FontSizeXL: 34px;
+$FontSizeXXL: 36px;
+
+// 主题颜色
+$Primary:#FED32F;
+$Secondary:#FFAE0D;
+$Red: #FE0032;
+$Green: #5FB36E;
+$Orange: #FE4400;
+$Yellow: #FFC65D;
+$Brand: #FFF;
+
+// 黑色
+$BlackS: #141115;
+$BlackM: #666666;
+$BlackL: #999999;
+$BlackXL: #D6D6D6;
+$PageBg: #F5F5F5;
+$Divider: #eeeeee;
+$White: #ffffff;
+
+.themeColor {
+  color: $Primary;
+}
+
+.themeBg {
+  background-color: $Primary;
+}
+
+.black {
+  color: $BlackS;
+}
+
+.BlackM {
+  color: $BlackM;
+}
+
+.error {
+  color: $Red;
+}
+
+.fontNormal {
+  font-size: $FontSizeM;
+}
+
+.disable {
+  opacity: 0.4;
+}
+
+.white {
+  color: $White;
+}
+
+.whiteBg {
+  background-color: $White;
+}
+
+
+//棕色
+$Brown: #f5d29d;
+$BrownL: #794915;

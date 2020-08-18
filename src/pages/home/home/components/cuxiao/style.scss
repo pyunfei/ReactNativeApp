@@ -1,0 +1,134 @@
+@import '../../../../../app.scss';
+
+.baoYou_bg {
+  display: flex;
+  flex-direction: column;
+  background: $White;
+  width: 710px;
+  align-self: center;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.baoYou_t {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.baoYou_t_l {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.baoYou_t_title {
+  font-size: 40px;
+  color: $BlackS;
+  font-weight: bold;
+}
+
+.baoYou_t_subTitle {
+  font-size: 24px;
+  color: $BlackM;
+  margin-left: 18px;
+  margin-top: 10px;
+}
+
+.baoYou_t_r {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: $BlackS;
+  height: 40px;
+  border-radius: 20px;
+  padding: 0 15px;
+}
+
+.baoYou_t_r_text {
+  font-size: 28px;
+  color: $Brown;
+  margin-left: 7px;
+}
+
+.baoYou_b {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  background-color: $PageBg;
+}
+
+.baoYou_item_bg {
+  display: flex;
+  flex-direction: column;
+  background-color: $White;
+  margin-right: 1px;
+}
+
+.baoYou_item_image_bg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.baoYou_item_image {
+  width: 260px;
+  height: 260px;
+}
+
+.baoYou_item_name_bg {
+  margin-top: 20px;
+  width: 240px;
+  padding-left: 20px;
+}
+
+.baoYou_item_name_text {
+  font-size: 24px;
+  color: $BlackS;
+}
+
+.baoYou_item_price_bg {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding-left: 20px;
+}
+
+.baoYou_item_price_name {
+  font-size: 20px;
+  color: $Red;
+  margin-bottom: 2px;
+}
+
+.baoYou_item_price_price {
+  font-size: 32px;
+  color: $Red;
+  font-weight: bold;
+}
+
+.baoYou_item_price_price_shichang {
+  font-size: 20px;
+  color: $BlackXL;
+  margin-left: 8px;
+  text-decoration: line-through;
+  text-decoration-color: #c1c1c1;
+  margin-bottom: 2px;
+}
+.baoYou_item_backFee_bg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+.baoyou_t_r_icon {
+  height: 24px;
+  width: 24px;
+  margin-left: 7px;
+}
