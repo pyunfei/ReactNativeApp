@@ -1,7 +1,8 @@
+/* eslint-disable prettier/prettier */
 import { createStore, applyMiddleware, compose } from 'redux';
 import thunkMiddleware from 'redux-thunk';
 import promiseMiddleware from 'redux-promise-middleware';
-import rootReducers from '@/reducer';
+import rootReducers from './reducer';
 import { composeWithDevTools } from 'redux-devtools-extension';
 
 import { persistStore, persistReducer } from 'redux-persist';
@@ -17,7 +18,7 @@ const persistConfig = {
   storage: AsyncStorage,
 };
 
-const persistedReducer = persistReducer(persistConfig, rootReducers);
+const persistedReducer = persistReducer(persistConfig,rootReducers);
 
 export default initialState => {
   const store = createStore(persistedReducer, initialState, compose(...enhances));

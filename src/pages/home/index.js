@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import { Image } from 'react-native';
 import { createBottomTabNavigator } from 'react-navigation-tabs';
@@ -19,7 +20,7 @@ const icons = [
   {
     icondefault: require('./assets/phone.png'),
     iconactive: require('./assets/phone_active.png'),
-  }
+  },
 ];
 function IconTab(focused, iconObj) {
   return (
@@ -42,14 +43,14 @@ const TabNavigator = createBottomTabNavigator(
       screen: Phone,
       navigationOptions: {
         tabBarLabel: '通讯录',
-        tabBarIcon: ({ tintColor, focused }) => IconTab(focused, icons[4]),
+        tabBarIcon: ({ tintColor, focused }) => IconTab(focused, icons[1]),
       },
     },
     HomeMy: {
       screen: My,
       navigationOptions: {
         tabBarLabel: '我的',
-        tabBarIcon: ({ tintColor, focused }) => IconTab(focused, icons[3]),
+        tabBarIcon: ({ tintColor, focused }) => IconTab(focused, icons[2]),
       },
     },
   },

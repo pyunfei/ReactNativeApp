@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import { Text, View, Image, TouchableOpacity, SafeAreaView } from 'react-native';
 import styles from './style.scss';

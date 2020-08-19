@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 const Config = require('./src/config');
 module.exports = {
   plugins: {

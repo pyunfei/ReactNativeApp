@@ -1,16 +1,12 @@
 import React from 'react';
-import { ScrollView } from 'react-native';
+import {Text, View} from 'react-native';
 
 function Index() {
-
   return (
-    <PageView headerHide >
-      <ScrollView >
-        My
-      </ScrollView>
-    </PageView>
+    <View>
+      <Text>My</Text>
+    </View>
   );
 }
-
 
 export default Index;
